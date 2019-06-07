@@ -20,3 +20,8 @@ header{
     height: 30vh;
     color: white;
 }
+#contacts{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 50vh;
+}
