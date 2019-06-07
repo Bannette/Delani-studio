@@ -25,3 +25,12 @@ header{
     background-size: cover;
     height: 50vh;
 }
+#about{
+    text-align: center;
+}
+.social{
+    align-content: center;
+}
+.tgl p{
+    display: none;
+}
