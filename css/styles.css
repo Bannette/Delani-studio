@@ -34,3 +34,9 @@ header{
 .tgl p{
     display: none;
 }
+#whatwedo{
+    text-align: center;
+}
+body{
+    font-family: Vidaloka;
+}

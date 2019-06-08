@@ -10,9 +10,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src = "js/scripts.js"></script>
     <title>DELANI STUDIO</title>
+
+    <style>
+        body {
+          font-family: 'Vidaloka', serif;
+          font-size: 25px;
+        }
+      </style>
 </head>
 
 <body>
@@ -50,7 +58,7 @@
                 requirements, we can provide a complete offering or just the places you need</p>
         </section>
 
-        <section id="whatWeDo" class="container">
+        <section id="whatwedo" class="container">
             <h3>WHAT WE DO</h3>
             <div class="row">
                 <div class="col-md-4 tgl" id="design">
@@ -113,19 +121,25 @@
         <section id="contacts" class="container">
             <h3>CONTACT US</h3>
             <form>
+                <div class="row">
+                <div class="col-md-6">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <label for="InputName">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter name">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label for="InputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Enter email">
+                </div>
+                </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <textarea class="form-control" name="customer_text" id="exampleFormControlTextarea1" rows="3"
+                      placeholder="Your Message here...."></textarea>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" name="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
 
@@ -143,6 +157,7 @@
         </div>
 
         <p>DELANI STUDIO 2019</p>
+        
     </div>
 </body>
 
