@@ -19,15 +19,18 @@ $("#submit").click(function() {
 });
 });
 
-var key = '1c2089a31a00d28af6cb0e553ed84697-us20';
-var user = document.getElementById('username').value;
-$("button").click(function(event) {
-  event.preventDefault();
-  alert("Dear " + user + ", we have received your message. Thank you for reaching out to us.");
-});
+$(document).ready(function() {
+  $("form#contacts").submit(function(event) {
 
-$("button").on('click', function(){
-  $('form').each(function(){
-    this.reset();
+    event.preventDefault();
+    var name = $.trim($('#name').val());
+    var email = $.trim($('#email').val());
+    if ((name === '') || (email === '')) {
+      alert('Please enter a name and your email address to continue.');
+      return false;
+    } else {
+      alert("Hello " + name + ",   We have received your message.Thank you for reaching out for us");
+      $(".submit")[0].reset();
+    }
   });
 });
