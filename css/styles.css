@@ -10,17 +10,12 @@ h3{
 }
 
 #logo{
-<<<<<<< HEAD
     padding-top:180px;
-=======
-    padding-top:150px;
->>>>>>> master
+    padding-top:140px;
 }
 
 #center{
     padding-top:225px;
-<<<<<<< HEAD
-=======
 }
 #services{
     background-image: url("../assets/backgrounds/s_image.jpg");
@@ -64,5 +59,4 @@ p{
     .contacts{
       width:100%; 
     }
->>>>>>> master
 }
