@@ -12,11 +12,6 @@ $("#management").click(function(){
     $("#management img").toggle();
    $("#management p").toggle();
 });
-$("#submit").click(function() {
-  var email = $("#email").val();
-  alert(email + " we have received your message. Thank you for subscribing");
-   $(".message")[0].reset();
-});
 });
 
 $(document).ready(function() {
