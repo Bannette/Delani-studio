@@ -7,7 +7,11 @@ Delani studio is a website that connects you to the world class developers to bu
 I installed Linux operating system Installed editor (atom,visual studio) which on my preference am using Visual Audio because I find it accomodative. Installed git vasual control(for tracking my changes)
 
 # TECHNOLOGIES USED
-HTML CSS JAVA SCRIPT JQUERY BOOTSTRAP4
+* HTML 
+* CSS 
+* JAVA SCRIPT 
+* JQUERY 
+* BOOTSTRAP4
 
 
 # LIVE LINK
