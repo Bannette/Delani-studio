@@ -19,7 +19,7 @@ Contact me via:
 email banetaloo3@gmail.com Phone number; 0720293998
 
 # BUGS
-The project is working effecietly no current bugs but if you happen to come across one you are free to contact me.
+The project is working effecietly no current bugs at the moment. working tree clean, but if you happen to come across one you are free to contact me.
 
 # LICENSE
 Copyright (c) 2019 [Bannette Aloo Odembo]
