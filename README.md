@@ -11,7 +11,8 @@ HTML CSS JAVA SCRIPT JQUERY BOOTSTRAP4
 
 
 # LIVE LINK
-https://bannette.github.io/Triangle-tracker/
+https://bannette.github.io/Delani-studio/
+
 
 # CONTACT INFORMATION
 Contact me via:
